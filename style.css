@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', serif;
+}
+
 .sign-in {
   display: flex;
   justify-content: space-between;
@@ -9,8 +18,6 @@
   padding: 2px 5px;
 }
 .header {
-  width: 1200px;
-  height: 520;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,9 +31,183 @@
   font-weight: 600;
 }
 .btn {
-  color: bisque;
-  background-color: rgb(50, 100, 70);
+  color: white;
+  background-color: rgb(0, 106, 80);
+  font-size: 18px;
+  border-radius: 8px;
   padding: 10px;
   border: none;
-  border-radius: 4px;
+  font-weight: bold;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header-content button {
+  width: 300px;
+}
+.circuit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 30px;
+  /* height: 100vh; */
+  /* background-color: #f7ebcf; */
+  border-radius: 15px;
+}
+/* .circuit-contect {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: blue;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 8px rgb(0, 106, 80);
+  margin: 20px auto;
+} */
+/* .circuit-contect img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px; 
+}
+.circuit-content h3 {
+  font-size: 2;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}*/
+/* 
+.circuit-content p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+} */
+
+.circuit-content .btn:hover {
+  background-color: #0056b3;
+}
+/* .light-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: antiquewhite;
+} */
+.circuit-content {
+  background-color: beige;
+  margin-right: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.light-type-content {
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+}
+.light-content {
+  background-color: aquamarine;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.unit {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: beige;
+}
+.importance {
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  margin: 50px;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/*Ekhane tumi table ta korba*/
+
+.space-title {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.space {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+  /* border: 1px solid gray; */
+  border-radius: 20px;
+}
+.al-jazeera {
+  margin: 20px;
+  padding: 10px;
+}
+.Donation {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: blanchedalmond;
+  border-radius:
+   20px;
+   text-align: center;
+}
+.Donation-taka {
+  margin-left: 40px;
+  /* justify-content: center; */
+  text-align: center;
+}
+.Donate-btn {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: aquamarine;
+  margin-left: 30px;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+.amount {
+  padding: 10px;
+  border-radius: 10px;
+}
+.amount-container {
+  text-align: center;
+}
+.subscribe {
+  text-align: center;
+}
+.email-part {
+  padding: 10px;
+  border-radius: 10px;
+}
+.final-part {
+  text-align: center;
+}
+.right-opinion {
+  margin-left: 50px;
+  /* justify-content: space-between; */
+}
+.opinion-content {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+.new-hire {
+  border-radius: 10px;
+}
+.my-opinion {
+  margin-left: 50px;
+}
+
+.btn:hover{
+  background-color:bisque;
+  color: black;
 }
